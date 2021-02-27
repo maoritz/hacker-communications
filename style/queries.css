@@ -10,6 +10,9 @@
   }
 
   /* ------------------ */
+  h1 {
+    font-size: 5.2rem;
+  }
   .logo-big {
     width: 38rem;
   }
@@ -41,10 +44,11 @@
   .hero-text-box {
     position: absolute;
     top: 55%;
-    left: 44%;
+    left: 50%;
     transform: translate(-50%, -10%);
     width: 50rem;
     padding-bottom: 10em;
     background-color: #ffffffec;
+    margin-left: 0;
   }
 }
