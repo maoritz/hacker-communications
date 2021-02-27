@@ -100,10 +100,6 @@ img {
 }
 
 /* ----- LINKS----- */
-a {
-  transition: ;
-}
-
 a:link,
 a:visited {
   color: #fff;
