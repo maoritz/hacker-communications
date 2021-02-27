@@ -1,0 +1,55 @@
+@media only screen and (min-width: 767px) {
+  /* ----- GRIDS ----- */
+  .what-we-do {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .reviews {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* ------------------ */
+  .logo-big {
+    width: 38rem;
+  }
+  .br-header {
+    display: none;
+  }
+  /* ----- NAVBAR ----- */
+  nav {
+    padding: 1em 0;
+  }
+
+  /* ----- DESKTOP NAVBAR ----- */
+  .main-nav {
+    display: flex;
+    flex-direction: unset;
+    justify-content: center;
+  }
+  .main-nav li {
+    border: none;
+    padding: 0.5em;
+    font-size: 2.2rem;
+    width: unset;
+  }
+
+  .main-nav li:last-of-type {
+    border: none;
+  }
+
+  .menu-button {
+    display: none;
+  }
+
+  /* ----- HERO TEXT BOX ----- */
+  .hero-text-box {
+    position: absolute;
+    top: 57rem;
+    left: 44%;
+    transform: translate(-50%, -50%);
+    width: 50rem;
+    padding-bottom: 10em;
+    background-color: #ffffffec;
+  }
+}
