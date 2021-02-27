@@ -45,6 +45,12 @@ body {
 }
 
 /* ----- HEADINGS ----- */
+h1,
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+}
 h1 {
   font-size: 4rem;
 }
@@ -69,6 +75,7 @@ h4 {
 
 h4 {
   font-size: 1.8rem;
+  margin: 1em;
 }
 
 /* ----- PARAGRAPHS AND SECTIONS ----- */
@@ -83,6 +90,7 @@ section {
   background-color: #fff;
   text-align: center;
   border-bottom: 1px solid #f2f2f2;
+  padding: 0 4%;
 }
 
 /* ----- IMAGES----- */
@@ -170,7 +178,6 @@ nav span,
 
 .what-we-do-box {
   margin-bottom: 3rem;
-  padding: 0 4%;
 }
 
 .what-we-do-box p {
@@ -187,7 +194,7 @@ nav span,
 }
 
 .reviews-box {
-  padding: 3rem;
+  padding: 2rem;
 }
 
 .reviews-box p {
@@ -198,4 +205,47 @@ nav span,
 .review-logo {
   border-radius: 100px;
   margin-bottom: 1em;
+}
+
+/* ----------------------------------------------- */
+/* CONTACT US */
+/* ----------------------------------------------- */
+.contact-us {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: 4em;
+  text-align: start;
+}
+
+/* ----------------------------------------------- */
+/* FOOTER */
+/* ----------------------------------------------- */
+footer {
+  background-color: #404040;
+  display: flex;
+  padding: 5rem 0;
+  justify-content: center;
+}
+
+footer ion-icon {
+  font-size: 3rem;
+  margin-right: 1em;
+}
+
+footer div {
+  text-align: center;
+}
+
+.twitter:hover,
+.twitter:active {
+  color: #1da1f2;
+}
+.linkedin:hover,
+.linkedin:active {
+  color: #007bb5;
+}
+.instagram:hover,
+.instagram:active {
+  color: #8a3ab9;
 }
