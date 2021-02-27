@@ -52,17 +52,17 @@ h4 {
   text-transform: uppercase;
 }
 h1 {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 h1,
 h2 {
-  padding: 3rem 0 5rem 0;
+  padding: 2rem 0 5rem 0;
 }
 
 h2,
 h3 {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 h3 {
   margin-bottom: 1rem;
@@ -100,6 +100,10 @@ img {
 }
 
 /* ----- LINKS----- */
+a {
+  transition: ;
+}
+
 a:link,
 a:visited {
   color: #fff;
@@ -132,6 +136,12 @@ nav {
   display: none;
   flex-direction: column;
   list-style: none;
+}
+
+.main-nav a:hover,
+.main-nav a:active {
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 0.2em;
 }
 .main-nav li {
   margin-left: 4%;
@@ -177,7 +187,7 @@ nav span,
 }
 
 .what-we-do-box {
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
 }
 
 .what-we-do-box p {
@@ -234,10 +244,17 @@ footer {
 footer ion-icon {
   font-size: 3rem;
   margin-right: 1em;
+  color: #888888;
 }
 
 footer div {
   text-align: center;
+}
+
+.twitter,
+.linkedin,
+.instagram {
+  transition: color 0.2s;
 }
 
 .twitter:hover,
