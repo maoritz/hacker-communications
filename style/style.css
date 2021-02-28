@@ -48,21 +48,23 @@ body {
 
 /* ----- HEADINGS ----- */
 h1,
-h3,
-h4 {
+h3 {
   text-transform: capitalize;
 }
 h1 {
   font-size: 3.2rem;
 }
 
-h2 {
+h2,
+h4 {
   text-transform: uppercase;
 }
 
 h1,
 h2 {
   padding: 3rem 0;
+  letter-spacing: 1px;
+  word-spacing: 2px;
 }
 
 h2,
@@ -206,10 +208,11 @@ nav span,
 
 .reviews-box {
   padding: 2rem;
+  border: 1px solid #f2f2f2;
+  margin: 1rem;
 }
 
 .reviews-box p {
-  padding-bottom: 1rem;
   font-style: italic;
 }
 
@@ -268,5 +271,6 @@ footer div {
 }
 .instagram:hover,
 .instagram:active {
-  color: #8a3ab9;
+  /* color: #8a3ab9; */
+  color: #3f729b;
 }
