@@ -28,6 +28,8 @@ body {
   padding: 0 2%;
   margin: 0 auto;
   background-color: #f0f0f0;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #404040;
 }
 
 .site {
@@ -46,13 +48,16 @@ body {
 
 /* ----- HEADINGS ----- */
 h1,
-h2,
 h3,
 h4 {
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 h1 {
   font-size: 3rem;
+}
+
+h2 {
+  text-transform: uppercase;
 }
 
 h1,
