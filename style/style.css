@@ -251,6 +251,10 @@ footer ion-icon {
   color: #888888;
 }
 
+.instagram {
+  margin: 0;
+}
+
 footer div {
   text-align: center;
 }
@@ -271,6 +275,5 @@ footer div {
 }
 .instagram:hover,
 .instagram:active {
-  /* color: #8a3ab9; */
   color: #3f729b;
 }
