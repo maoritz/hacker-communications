@@ -85,7 +85,7 @@ h4 {
 
 p {
   font-size: 1.8rem;
-  max-width: 75ch;
+  max-width: 70ch;
   line-height: 2.6rem;
 }
 
@@ -243,12 +243,13 @@ footer {
 
 footer ion-icon {
   font-size: 3rem;
-  margin-right: 1em;
   color: #888888;
 }
-
-.instagram {
-  margin: 0;
+footer a {
+  margin-right: 2em;
+}
+footer a:last-of-type {
+  margin-right: 0;
 }
 
 footer div {
